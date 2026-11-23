@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Portfolio</title>
+<meta name="description" content="Student developer portfolio: projects, skills, experience and résumé.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0b10" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=JetBrains+Mono:wght@400..600&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=JetBrains+Mono:wght@400..600&amp;display=swap"></noscript>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/data.js" defer blocking="render"></script>
+<script src="assets/app.js" defer blocking="render"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<aside class="banner" id="banner" aria-label="Template notice" hidden>
+  <p></p>
+  <button type="button" aria-label="Dismiss notice"><svg class="i" aria-hidden="true"><use href="#i-x"/></svg></button>
+</aside>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="logo" href="#top"><span class="mark" aria-hidden="true" data-k="ini"></span><span data-k="name"></span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-s" href="assets/resume.pdf" data-cv download>Résumé<svg class="i" aria-hidden="true"><use href="#i-download"/></svg></a>
+    <button class="tgl" id="theme" type="button" aria-label="Dark theme" aria-pressed="false" title="Toggle dark theme">
+      <svg class="i moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="i sun" aria-hidden="true"><use href="#i-sun"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="h-name">
+    <div class="wrap hero-g">
+      <div class="hero-c">
+        <p class="chip"><span class="dot" aria-hidden="true"></span><span data-k="availability"></span></p>
+        <h1 id="h-name"><span data-k="first"></span> <span class="grad" data-k="last"></span></h1>
+        <p class="role" data-k="role"></p>
+        <p class="tag" data-k="tagline"></p>
+        <p class="sum" data-k="summary"></p>
+        <div class="cta">
+          <a class="btn btn-p" href="assets/resume.pdf" data-cv download><svg class="i" aria-hidden="true"><use href="#i-download"/></svg>Download résumé</a>
+          <a class="btn btn-g" href="#contact"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg>Contact me</a>
+        </div>
+        <dl class="stats" id="h-stats"></dl>
+      </div>
+
+      <div class="art" aria-hidden="true">
+        <svg class="orbit" viewBox="0 0 400 400">
+          <circle class="o" cx="200" cy="200" r="196"/>
+          <circle class="o od" cx="200" cy="200" r="150"/>
+          <circle class="o" cx="200" cy="200" r="104"/>
+          <g class="spin"><circle class="p1" cx="200" cy="4" r="5"/><circle class="p2" cx="396" cy="200" r="3.5"/><circle class="p2" cx="61" cy="339" r="4"/></g>
+          <g class="spin r"><circle class="p2" cx="200" cy="350" r="4"/><circle class="p1" cx="50" cy="200" r="6"/><circle class="p1" cx="306" cy="94" r="3"/></g>
+        </svg>
+        <div class="code">
+          <div class="bar"><i></i><i></i><i></i><span><span data-k="v"></span>.ts</span></div>
+          <pre><span><i>const</i> <em data-k="v"></em> = {</span><span><u>role</u>: <b data-k="title"></b>,</span><span><u>based</u>: <b data-k="location"></b>,</span><span><u>stack</u>: [<b data-k="heroStack"></b>],</span><span><u>openTo</u>: <b data-k="availability"></b>,</span><span><u>shipping</u>: <i>true</i>,</span><span>};</span></pre>
+        </div>
+        <div class="act">
+          <p><span>Commit activity</span><span>52 weeks</span></p>
+          <svg viewBox="0 0 309 81">
+            <defs>
+              <pattern id="g0" width="12" height="12" patternUnits="userSpaceOnUse"><rect class="q0" width="9" height="9" rx="2"/></pattern>
+              <pattern id="g1" width="36" height="24" patternUnits="userSpaceOnUse"><rect class="q1" x="12" width="9" height="9" rx="2"/><rect class="q2" y="12" width="9" height="9" rx="2"/></pattern>
+              <pattern id="g2" width="60" height="36" patternUnits="userSpaceOnUse"><rect class="q3" x="24" y="12" width="9" height="9" rx="2"/><rect class="q1" x="48" y="24" width="9" height="9" rx="2"/><rect class="q2" x="36" width="9" height="9" rx="2"/></pattern>
+              <pattern id="g3" width="84" height="48" patternUnits="userSpaceOnUse"><rect class="q4" x="36" width="9" height="9" rx="2"/><rect class="q3" x="72" y="36" width="9" height="9" rx="2"/><rect class="q4" x="12" y="24" width="9" height="9" rx="2"/><rect class="q2" x="60" y="12" width="9" height="9" rx="2"/></pattern>
+              <pattern id="g4" width="132" height="60" patternUnits="userSpaceOnUse"><rect class="q4" x="96" y="48" width="9" height="9" rx="2"/><rect class="q3" x="0" y="36" width="9" height="9" rx="2"/><rect class="q4" x="60" y="0" width="9" height="9" rx="2"/></pattern>
+            </defs>
+            <rect width="309" height="81" fill="url(#g0)"/><rect width="309" height="81" fill="url(#g1)"/><rect width="309" height="81" fill="url(#g2)"/><rect width="309" height="81" fill="url(#g3)"/><rect width="309" height="81" fill="url(#g4)"/>
+          </svg>
+          <p class="lg"><span>Less</span><span><i class="q0"></i><i class="q1"></i><i class="q2"></i><i class="q3"></i><i class="q4"></i></span><span>More</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">01</span><h2 id="about-h">About</h2></div>
+      <div class="about-g">
+        <div class="prose rv" id="about-text"></div>
+        <dl class="facts card rv" id="about-facts" style="--d:1"></dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="skills" aria-labelledby="skills-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">02</span><h2 id="skills-h">Skills</h2><p class="lede">The tools I reach for, grouped the way I use them.</p></div>
+      <ul class="sk-g" id="skills-grid"></ul>
+    </div>
+  </section>
+
+  <section class="sec" id="projects" aria-labelledby="projects-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">03</span><h2 id="projects-h">Featured projects</h2><p class="lede">Built end to end, each with the result it delivered.</p></div>
+      <ul class="pj-g" id="proj-grid"></ul>
+    </div>
+  </section>
+
+  <section class="sec" id="experience" aria-labelledby="experience-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">04</span><h2 id="experience-h">Experience</h2></div>
+      <ol class="tl" id="exp-list"></ol>
+    </div>
+  </section>
+
+  <section class="sec" id="education" aria-labelledby="education-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">05</span><h2 id="education-h">Education</h2></div>
+      <ul class="ed-g" id="edu-list"></ul>
+    </div>
+  </section>
+
+  <section class="sec" id="achievements" aria-labelledby="achievements-h">
+    <div class="wrap">
+      <div class="sec-h"><span class="idx" aria-hidden="true">06</span><h2 id="achievements-h">Achievements &amp; certifications</h2></div>
+      <ul class="ac-g" id="ach-list"></ul>
+    </div>
+  </section>
+
+  <section class="sec" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="c-card rv">
+        <div class="sec-h"><span class="idx" aria-hidden="true">07</span><h2 id="contact-h">Let’s talk</h2></div>
+        <p class="c-blurb" data-k="contactBlurb"></p>
+        <div class="c-cta">
+          <a class="btn btn-p" id="c-mail" href="#contact"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg><span data-k="email"></span></a>
+          <button class="btn btn-g" id="c-copy" type="button"><svg class="i c1" aria-hidden="true"><use href="#i-copy"/></svg><svg class="i c2" aria-hidden="true"><use href="#i-check"/></svg><span class="c1">Copy email</span><span class="c2">Copied</span></button>
+          <p class="sr" id="c-status" role="status"></p>
+        </div>
+        <ul class="c-links" id="c-links"></ul>
+        <div class="c-meta" id="c-meta"></div>
+        <svg class="c-art" viewBox="0 0 200 200" aria-hidden="true"><path d="M30 100a70 70 0 0 1 140 0M50 100a50 50 0 0 1 100 0M70 100a30 30 0 0 1 60 0"/><circle cx="100" cy="100" r="7"/></svg>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>© <span data-k="year"></span> <span data-k="name"></span></p>
+    <p>Hand-built with HTML, CSS and a little JavaScript.</p>
+    <a href="#top">Back to top<svg class="i" aria-hidden="true"><use href="#i-up"/></svg></a>
+  </div>
+</footer>
+
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.6A8.3 8.3 0 0 1 9.4 4a8.3 8.3 0 1 0 10.6 10.6z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8.5 7H17v8.5"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><circle cx="6.5" cy="5.5" r="2.3"/><circle cx="6.5" cy="18.5" r="2.3"/><circle cx="17.5" cy="7.5" r="2.3"/><path d="M6.5 7.8v8.4M17.5 9.8c0 4.4-4.5 3.6-8.6 6.6"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><circle cx="8.8" cy="10.3" r="2"/><path d="M5.8 16.2c.6-1.7 1.7-2.5 3-2.5s2.4.8 3 2.5M14.5 9.5h3.5M14.5 13h2.5"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7.5 3.5 12 8 16.5M16 7.5l4.5 4.5-4.5 4.5M13.6 5l-3.2 14"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11.5" height="11.5" rx="2.5"/><path d="M15.5 8.5V6.5A2.5 2.5 0 0 0 13 4H6.5A2.5 2.5 0 0 0 4 6.5V13a2.5 2.5 0 0 0 2.5 2.5h2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6.5 10.5 12 5l5.5 5.5"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5.5v13M5.5 12h13"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3.5h3l1.6 4.2-2.1 1.4a11.5 11.5 0 0 0 6.4 6.4l1.4-2.1 4.2 1.6v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.7-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.3 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2.5 9.5 12 5l9.5 4.5L12 14 2.5 9.5zM6.5 11.6v4.6c1.6 1.5 3.4 2.3 5.5 2.3s3.9-.8 5.5-2.3v-4.6M21.5 9.5v5"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7.5 4h9v5.5a4.5 4.5 0 0 1-9 0V4zM7.5 6H4.5a3 3 0 0 0 3.2 4M16.5 6h3a3 3 0 0 1-3.2 4M12 14v3.5M8.5 20.5h7M9.5 17.5h5v3h-5z"/></symbol>
+  <symbol id="i-cert" viewBox="0 0 24 24"><circle cx="12" cy="9.5" r="5.5"/><path d="m9 14.3-1.3 6.7 4.3-2.2 4.3 2.2-1.3-6.7M10 9.5l1.4 1.4 2.8-2.8"/></symbol>
+  <symbol id="i-paper" viewBox="0 0 24 24"><path d="M6 3h8.5L19 7.5V21H6V3zM14 3v5h5M9 12.5h7M9 16.5h5"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8L12 3.6z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5c.8 4.6 3.9 7.7 8.5 8.5-4.6.8-7.7 3.9-8.5 8.5-.8-4.6-3.9-7.7-8.5-8.5 4.6-.8 7.7-3.9 8.5-8.5z"/></symbol>
+</svg>
+</body>
+</html>
